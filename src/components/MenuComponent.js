@@ -1,6 +1,6 @@
 import React,{ Component} from 'react';
-import { Media } from 'reactstrap';
-
+import { Card, CardImg, CardImgOverlay, CardText, CardBody,
+    CardTitle } from 'reactstrap';
 class Menu extends Component{
     constructor(props){
         super(props);
